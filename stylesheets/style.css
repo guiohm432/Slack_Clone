@@ -67,12 +67,14 @@ nav grey: #5b5e6d; */
     }
     #mail{
         width:100%;
-        height:10%;
-        text-align:center;
+        height:8vh;
+    }
+    .input-center{
+        text-align: center;
     }
     .button {
         width:100%;
-        height:9vh; 
+        height:8vh; 
         border: 1px solid #192592;
         color: #192592 ;
         background-color: white;
@@ -98,8 +100,16 @@ nav grey: #5b5e6d; */
     img.medium {
         width: 50%;
     }
-    .lower-main{
+    .lower-main h3{
+        text-align: center;
+    }
+    .lower-main-div{
         height:30vh;
     }
+    .lower-main-div input{
+        text-align: start;
+        padding: 0 5vw 0;
+    }
+    
     
 }
