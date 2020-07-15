@@ -42,6 +42,9 @@ nav grey: #5b5e6d; */
         margin-top: 0.2em;
     }
     .padding-center{
+        padding: 0 5vw 0;
+    }
+    .padding-top-center{
         padding: 10vh 5vw 0;
     }
 
