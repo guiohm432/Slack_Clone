@@ -110,17 +110,44 @@ nav grey: #5b5e6d; */
         text-align: start;
         padding: 0 5vw 0;
     }
+    footer img{
+        width: 35%;
+    }
     .about {
         display: flex;
     }
     .links{
         display: flex;
         flex-direction: column;
-        margin-left: 5vw;
+        margin-left: 8vw;
     }
     li {
         list-style: none;
         margin: 2vh 0 2vh;
+    }
+    .footer-bottom{
+        background-color: #F4F3F4;
+        font-weight: 600;
+    }
+    .footer-links{
+        display: flex;
+        justify-content: space-around;
+        width: 80vw;
+    }
+    .languages{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 50vw; 
+    }
+    .social{
+        display: flex;
+        justify-content: space-around;
+        width: 30vw; 
+        margin: 2vh 0;
+    }
+    #flag{
+        width:10vw;
     }
     
 }
