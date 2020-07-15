@@ -41,7 +41,9 @@ nav grey: #5b5e6d; */
         color:#5b5e6d;
         margin-top: 0.2em;
     }
-    
+    .padding-center{
+        padding: 10vh 5vw 0;
+    }
 
     header {
         display: flex;
@@ -50,7 +52,6 @@ nav grey: #5b5e6d; */
         height: 90vh;
         width:100vw;
         align-items: center;
-        padding: 10vh 5vw 0;
         
     }
     header h1 {
@@ -90,7 +91,6 @@ nav grey: #5b5e6d; */
         align-items: center;
         text-align: center;
         height: 150vh;
-        padding: 10vh 5vw 0;
     }
     .upper-main h2{
         font-size: 2em;
