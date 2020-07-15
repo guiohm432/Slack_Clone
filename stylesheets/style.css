@@ -110,6 +110,17 @@ nav grey: #5b5e6d; */
         text-align: start;
         padding: 0 5vw 0;
     }
-    
+    .about {
+        display: flex;
+    }
+    .links{
+        display: flex;
+        flex-direction: column;
+        margin-left: 5vw;
+    }
+    li {
+        list-style: none;
+        margin: 2vh 0 2vh;
+    }
     
 }
