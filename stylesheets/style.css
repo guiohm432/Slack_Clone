@@ -6,14 +6,17 @@ paragraph grey: #5b5e6d;
 nav grey: #5b5e6d; */
 * {
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 3vmin;
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
 @media screen and (max-width: 768px) {
-    img{
+    
+    .home{
         width:80vw;
+        margin-left: 10vw;
     }
     nav {
         display: flex;
@@ -60,7 +63,7 @@ nav grey: #5b5e6d; */
     }
     header h1 {
         margin-bottom: 0px;
-        /* font-size: 100%; */
+        font-size: 200%;
     }
     header p{
        color: #5b5e6d;
@@ -151,4 +154,148 @@ nav grey: #5b5e6d; */
         width:10vw;
     }
     
+}
+
+@media screen and (max-width: 961px) and (min-width: 768px) {
+
+    .home{
+        width:80vw;
+        margin-left: 10vw;
+    }
+    nav {
+        display: flex;
+        justify-content: space-between;
+        /* align-items: center; */
+        border-bottom: 1px solid lightgray;
+        /* height: 30vh; */
+        width: 100vw;
+        background-color: white;
+    }
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+      }
+    .slack-logo{
+        width: 30vw;
+        height:80%;
+        margin-left: 5vw;
+        
+    }
+    .fa-bars{
+        font-size: 10vw;
+        margin-right: 10vw;
+        color:#5b5e6d;
+        margin-top: 0.2em;
+    }
+    .padding-center{
+        padding: 0 5vw 0;
+    }
+    .padding-top-center{
+        padding: 10vh 5vw 0;
+    }
+
+    header {
+        height: 90vh;
+        width:100vw; 
+    }
+    .flex{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    header h1 {
+        margin-bottom: 0px;
+        font-size: 200%;
+    }
+    header p{
+       color: #5b5e6d;
+    }
+    #mail{
+        width:100%;
+        height:8vh;
+    }
+    .input-center{
+        text-align: center;
+    }
+    .button {
+        width:100%;
+        height:8vh; 
+        border: 1px solid #192592;
+        color: #192592 ;
+        background-color: white;
+    }
+    .rounded{
+        border-radius: 0.3em;
+        border-style: 1px black;
+    }
+    .blue {
+        border-style: none;
+        background-color: #192592;
+        color: white;
+    }
+    
+    .upper-main{
+        background-color: #F4F3F4;
+        text-align: center;
+        height: 150vh;
+    }
+    .upper-main h2{
+        font-size: 2em;
+    }
+    img.medium {
+        width: 50%;
+    }
+    .lower-main h3{
+        text-align: center;
+        margin-top: 3vh;
+    }
+    .lower-main-div{
+        height:30vh;
+    }
+    .lower-main-div input{
+        text-align: start;
+        padding: 0 5vw 0;
+    }
+    footer img{
+        width: 35%;
+    }
+    .about {
+        display: flex;
+    }
+    .links{
+        display: flex;
+        flex-direction: column;
+        margin-left: 8vw;
+    }
+    li {
+        list-style: none;
+        margin: 2vh 0 2vh;
+    }
+    .footer-bottom{
+        background-color: #F4F3F4;
+        font-weight: 600;
+    }
+    .footer-links{
+        display: flex;
+        justify-content: space-around;
+        width: 80vw;
+    }
+    .languages{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 50vw; 
+    }
+    .social{
+        display: flex;
+        justify-content: space-around;
+        width: 30vw; 
+        margin: 2vh 0;
+    }
+    #flag{
+        width:10vw;
+    }
+
 }
